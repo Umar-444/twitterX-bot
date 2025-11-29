@@ -2,6 +2,10 @@
 .env
 .env.local
 
+# Logs
+bot.log
+*.log
+
 # Python
 __pycache__/
 *.pyc
