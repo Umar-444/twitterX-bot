@@ -3,12 +3,18 @@ import os
 import random
 import time
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+
+# Load environment variables from .env file if it exists
+load_dotenv()
 
 # Load credentials from environment variables
-api_key = os.getenv("pgu7dzgmZI2PMLnuLdLawTat4")
-api_secret = os.getenv("pq2kz6Hwq9qTpNPNIxrWwermOX2uBqaoUxbB2l0jXHPOQnTpiu")
-access_token = os.getenv("1406339665578319875-4XU0ERx127CLcOxNQbOlsNfvPYJHJR")
-access_secret = os.getenv("dptk7L6yPGN9N7iz4r8NBlw38h0hy0oS57lyb0bP6eU0d")
+# Set these environment variables with your Twitter API credentials:
+# API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_SECRET
+api_key = os.getenv("API_KEY")
+api_secret = os.getenv("API_SECRET")
+access_token = os.getenv("ACCESS_TOKEN")
+access_secret = os.getenv("ACCESS_SECRET")
 
 # Authenticate
 auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
