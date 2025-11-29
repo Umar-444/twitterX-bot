@@ -140,7 +140,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Author:** Umar Pak  
+**Author:** Umar FarooQ  
 **Email:** umarpak995@gmail.com  
 **GitHub:** [umar-444](https://github.com/umar-444)  
 **LinkedIn:** [umar444](https://linkedin.com/in/umar444)
